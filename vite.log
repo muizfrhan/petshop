@@ -1,0 +1,220 @@
+
+> dev
+> vite
+
+
+  [32m[1mVITE[22m v6.4.4[39m  [2mready in [0m[1m4599[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+[2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+
+  [31m[1mLARAVEL[22m v12.69.3[39m  [2mplugin[22m [1mv1.3.0[22m
+
+  [32m➜[39m  [1mAPP_URL[22m: [36mhttp://localhost:[1m8000[22m[39m
+[2m19.28.06[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\components\form-field.blade.php[22m
+[2m19.28.06[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/components/form-field.blade.php[22m
+[2m19.28.08[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mstorage/framework/views/23ca86f4783588110a48fbc01ba539bc.php[22m
+[2m19.28.16[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\components\form-field.blade.php[22m
+[2m19.28.16[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/components/form-field.blade.php[22m
+[2m19.28.18[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mstorage/framework/views/23ca86f4783588110a48fbc01ba539bc.php[22m
+[2m19.29.22[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\auth\login.blade.php[22m
+[2m19.29.22[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/auth/login.blade.php[22m
+[2m19.29.23[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mstorage/framework/views/12ff6882dde83eed47ba351ea2ba45ab.php[22m
+[2m19.29.30[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\auth\login.blade.php[22m
+[2m19.29.30[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/auth/login.blade.php[22m
+[2m19.29.32[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mstorage/framework/views/12ff6882dde83eed47ba351ea2ba45ab.php[22m
+[2m19.30.37[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\auth\register.blade.php[22m
+[2m19.30.37[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/auth/register.blade.php[22m
+[2m19.31.45[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/resources/css/app.css?direct, /resources/css/app.css[22m
+[2m19.32.15[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/js/app.js[22m
+[2m19.32.24[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/js/app.js[22m
+[2m19.34.42[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\auth\login.blade.php[22m
+[2m19.34.42[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/auth/login.blade.php[22m
+[2m19.34.44[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mstorage/framework/views/12ff6882dde83eed47ba351ea2ba45ab.php[22m
+[2m19.34.47[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\auth\register.blade.php[22m
+[2m19.34.47[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/auth/register.blade.php[22m
+[2m19.34.58[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\auth\login.blade.php[22m
+[2m19.34.58[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/auth/login.blade.php[22m
+[2m19.35.00[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mstorage/framework/views/12ff6882dde83eed47ba351ea2ba45ab.php[22m
+[2m19.35.00[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\auth\register.blade.php[22m
+[2m19.35.00[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/auth/register.blade.php[22m
+[2m19.36.44[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mstorage/framework/views/7a933fe5d8f2f20c1465fe810b86e13c.php[22m
+[2m20.24.32[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\auth\login.blade.php[22m
+[2m20.24.32[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/auth/login.blade.php[22m
+[2m20.24.34[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mstorage/framework/views/12ff6882dde83eed47ba351ea2ba45ab.php[22m
+[2m20.29.35[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\auth\login.blade.php[22m
+[2m20.29.35[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/auth/login.blade.php[22m
+[2m20.29.37[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mstorage/framework/views/12ff6882dde83eed47ba351ea2ba45ab.php[22m
+[2m20.29.42[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\auth\login.blade.php[22m
+[2m20.29.42[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/auth/login.blade.php[22m
+[2m20.29.42[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\auth\register.blade.php[22m
+[2m20.29.42[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/auth/register.blade.php[22m
+[2m20.29.44[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mstorage/framework/views/12ff6882dde83eed47ba351ea2ba45ab.php[22m
+[2m20.30.14[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mstorage/framework/views/7a933fe5d8f2f20c1465fe810b86e13c.php[22m
+[2m21.31.30[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/resources/css/app.css?direct, /resources/css/app.css[22m
+[2m21.31.30[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/resources/css/app.css?direct, /resources/css/app.css[22m
+[2m21.31.56[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/resources/css/app.css?direct, /resources/css/app.css[22m
+[2m21.32.51[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\home\partials\flash-sale.blade.php[22m
+[2m21.32.51[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/home/partials/flash-sale.blade.php[22m
+[2m21.32.51[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mstorage/framework/views/2e1038b7c3720b5899b0d6d0d670cfca.php[22m
+[2m21.38.35[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/resources/css/app.css?direct, /resources/css/app.css[22m
+[2m21.38.48[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/resources/css/app.css?direct, /resources/css/app.css[22m
+[2m21.38.56[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\home\partials\flash-sale.blade.php[22m
+[2m21.38.56[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/home/partials/flash-sale.blade.php[22m
+[2m21.39.00[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mstorage/framework/views/2e1038b7c3720b5899b0d6d0d670cfca.php[22m
+[2m21.41.05[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\components\product-card.blade.php[22m
+[2m21.41.05[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/components/product-card.blade.php[22m
+[2m21.41.27[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mstorage/framework/views/157b2675ca6c79eb94b3eb3fcd088340.php[22m
+[2m23.05.48[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\layouts\admin.blade.php[22m
+[2m23.05.48[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/layouts/admin.blade.php[22m
+[2m23.06.09[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\layouts\partials\admin-sidebar.blade.php[22m
+[2m23.06.09[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/layouts/partials/admin-sidebar.blade.php[22m
+[2m23.06.15[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\layouts\account.blade.php[22m
+[2m23.06.28[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\layouts\partials\account-sidebar.blade.php[22m
+[2m23.08.27[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\account\index.blade.php[22m
+[2m23.08.27[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/account/index.blade.php[22m
+[2m23.08.27[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\orders\index.blade.php[22m
+[2m23.08.27[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/orders/index.blade.php[22m
+[2m23.08.27[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\wishlist\index.blade.php[22m
+[2m23.08.27[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/wishlist/index.blade.php[22m
+[2m23.08.27[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\account\edit.blade.php[22m
+[2m23.08.27[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/account/edit.blade.php[22m
+[2m23.08.27[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\account\notifications.blade.php[22m
+[2m23.08.27[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/account/notifications.blade.php[22m
+[2m23.09.05[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\account\index.blade.php[22m
+[2m23.09.05[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/account/index.blade.php[22m
+[2m23.09.06[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\account\notifications.blade.php[22m
+[2m23.09.06[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/account/notifications.blade.php[22m
+[2m23.09.06[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\orders\index.blade.php[22m
+[2m23.09.06[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/orders/index.blade.php[22m
+[2m23.09.19[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\account\edit.blade.php[22m
+[2m23.09.19[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/account/edit.blade.php[22m
+[2m23.09.19[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\wishlist\index.blade.php[22m
+[2m23.09.19[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/wishlist/index.blade.php[22m
+[2m23.10.27[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\account\edit.blade.php[22m
+[2m23.10.27[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/account/edit.blade.php[22m
+[2m23.11.00[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/js/app.js[22m
+[2m23.11.13[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/js/app.js[22m
+[2m23.11.33[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mapp/Http/Middleware/EnsureUserIsAdmin.php[22m
+[2m23.11.55[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\layouts\partials\navbar.blade.php[22m
+[2m23.11.55[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/layouts/partials/navbar.blade.php[22m
+[2m23.11.55[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mstorage/framework/views/c0fb4b0921bbc7afd7e343d76e5e2521.php[22m
+[2m23.12.35[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\admin\dashboard.blade.php[22m
+[2m23.12.35[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/admin/dashboard.blade.php[22m
+[2m23.12.53[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\admin\dashboard.blade.php[22m
+[2m23.12.53[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/admin/dashboard.blade.php[22m
+[2m23.13.12[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/js/app.js[22m
+[2m23.13.41[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\layouts\admin.blade.php[22m
+[2m23.13.41[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/layouts/admin.blade.php[22m
+[2m23.15.07[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mstorage/framework/views/802436ee149c066b385aa8ea4b2375fa.php[22m
+[2m23.15.10[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mstorage/framework/views/97c6335b1864944d5a23cbf624869f4b.php[22m
+[2m23.15.10[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mstorage/framework/views/478d19a863a517c5bb0d8e6a9e46bf03.php[22m
+[2m23.15.10[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mstorage/framework/views/dda81bd6c4f1803d36dde95a0aa86ff3.php[22m
+[2m23.15.39[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mstorage/framework/views/bee035b060e7886bd3b0d6a06d1a8bf8.php[22m
+[2m23.19.01[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mapp/Models/Order.php[22m
+[2m23.19.12[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mapp/Models/Order.php[22m
+[2m23.19.14[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mapp/Http/Controllers/Admin/AdminReportController.php[22m
+[2m23.19.20[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\account\index.blade.php[22m
+[2m23.19.20[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/account/index.blade.php[22m
+[2m23.19.20[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\account\edit.blade.php[22m
+[2m23.19.20[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/account/edit.blade.php[22m
+[2m23.19.20[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\orders\index.blade.php[22m
+[2m23.19.20[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/orders/index.blade.php[22m
+[2m23.19.20[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\wishlist\index.blade.php[22m
+[2m23.19.20[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/wishlist/index.blade.php[22m
+[2m23.19.20[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\account\notifications.blade.php[22m
+[2m23.19.20[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/account/notifications.blade.php[22m
+[2m23.21.29[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/resources/css/app.css?direct, /resources/css/app.css[22m
+[2m23.21.30[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/resources/css/app.css?direct, /resources/css/app.css[22m
+[2m23.21.40[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\admin\articles\index.blade.php[22m
+[2m23.21.40[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/admin/articles/index.blade.php[22m
+[2m23.21.40[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\admin\brands\index.blade.php[22m
+[2m23.21.40[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/admin/brands/index.blade.php[22m
+[2m23.21.40[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\admin\categories\index.blade.php[22m
+[2m23.21.40[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/admin/categories/index.blade.php[22m
+[2m23.21.40[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\admin\coupons\index.blade.php[22m
+[2m23.21.40[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/admin/coupons/index.blade.php[22m
+[2m23.21.40[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\admin\orders\index.blade.php[22m
+[2m23.21.40[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/admin/orders/index.blade.php[22m
+[2m23.21.40[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\admin\payments\index.blade.php[22m
+[2m23.21.40[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/admin/payments/index.blade.php[22m
+[2m23.21.40[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\admin\products\index.blade.php[22m
+[2m23.21.40[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/admin/products/index.blade.php[22m
+[2m23.21.40[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\admin\payments\show.blade.php[22m
+[2m23.21.40[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/admin/payments/show.blade.php[22m
+[2m23.21.40[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\admin\reviews\index.blade.php[22m
+[2m23.21.40[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/admin/reviews/index.blade.php[22m
+[2m23.21.40[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\admin\products\show.blade.php[22m
+[2m23.21.40[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/admin/products/show.blade.php[22m
+[2m23.21.40[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\admin\services\index.blade.php[22m
+[2m23.21.40[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/admin/services/index.blade.php[22m
+[2m23.21.40[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\admin\users\index.blade.php[22m
+[2m23.21.40[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/admin/users/index.blade.php[22m
+[2m23.21.40[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\components\booking-status-badge.blade.php[22m
+[2m23.21.40[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/components/booking-status-badge.blade.php[22m
+[2m23.21.40[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\components\status-badge.blade.php[22m
+[2m23.21.40[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/components/status-badge.blade.php[22m
+[2m23.21.41[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mstorage/framework/views/66f9e3ee70b989686f78600e39543b7e.php[22m
+[2m23.21.41[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mstorage/framework/views/4dcec9c2e49012e379ddaa69c43a650d.php[22m
+[2m23.21.53[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\admin\reports\index.blade.php[22m
+[2m23.21.53[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/admin/reports/index.blade.php[22m
+[2m23.22.06[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mstorage/framework/views/802436ee149c066b385aa8ea4b2375fa.php[22m
+[2m23.22.11[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mstorage/framework/views/45df30a44e245da4e845e95fb6feaa21.php[22m
+[2m23.22.16[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mstorage/framework/views/2affe58dfe1bc77b7a2c848f5c4bb1fc.php[22m
+[2m23.22.23[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mstorage/framework/views/30eca4869d6717d778a66469e1854cfb.php[22m
+[2m23.22.26[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mstorage/framework/views/44245f36a5c159ab22a9b6a0240f9377.php[22m
+[2m23.22.28[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mstorage/framework/views/53fffd1ffa5a3719f74505a94b23e6b1.php[22m
+[2m23.22.29[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mstorage/framework/views/a3f5942d13736ac89f9d6c71bdf1471d.php[22m
+[2m23.22.32[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mstorage/framework/views/bee035b060e7886bd3b0d6a06d1a8bf8.php[22m
+[2m23.25.24[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mapp/Http/Controllers/Auth/AuthenticatedSessionController.php[22m
+[2m23.25.25[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\errors\403.blade.php[22m
+[2m23.25.25[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/errors/403.blade.php[22m
+[2m23.26.31[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mstorage/framework/views/5301517eee54fdfc331525c73c08811f.php[22m
+[2m23.37.23[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\admin\users\index.blade.php[22m
+[2m23.37.23[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/admin/users/index.blade.php[22m
+[2m23.37.23[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\components\booking-status-badge.blade.php[22m
+[2m23.37.23[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/components/booking-status-badge.blade.php[22m
+[2m23.37.23[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\components\status-badge.blade.php[22m
+[2m23.37.23[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/components/status-badge.blade.php[22m
+[2m23.38.49[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mstorage/framework/views/4dcec9c2e49012e379ddaa69c43a650d.php[22m
+[2m23.38.49[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mstorage/framework/views/53fffd1ffa5a3719f74505a94b23e6b1.php[22m
+[2m23.39.57[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\layouts\partials\footer.blade.php[22m
+[2m23.39.57[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/layouts/partials/footer.blade.php[22m
+[2m23.39.59[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\components\product-card.blade.php[22m
+[2m23.39.59[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/components/product-card.blade.php[22m
+[2m23.40.01[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\shop\show.blade.php[22m
+[2m23.40.01[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/shop/show.blade.php[22m
+[2m23.40.02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mstorage/framework/views/157b2675ca6c79eb94b3eb3fcd088340.php[22m
+[2m23.40.02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mstorage/framework/views/5ec7719211b6e3195f9ef9585ff11bb4.php[22m
+[2m23.41.28[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\components\rating.blade.php[22m
+[2m23.41.28[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/components/rating.blade.php[22m
+[2m23.41.29[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mstorage/framework/views/422a3b55e37f36ac9ca11ede22a06ac0.php[22m
+[2m23.41.49[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\home\partials\testimonials.blade.php[22m
+[2m23.41.49[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/home/partials/testimonials.blade.php[22m
+[2m23.41.51[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mstorage/framework/views/ddfc58091bb4bf4c9b51ff63018ef0dd.php[22m
+[2m23.43.05[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mstorage/framework/views/2affe58dfe1bc77b7a2c848f5c4bb1fc.php[22m
+[2m23.45.52[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\layouts\partials\admin-sidebar.blade.php[22m
+[2m23.45.52[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/layouts/partials/admin-sidebar.blade.php[22m
+[2m23.45.56[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\admin\dashboard.blade.php[22m
+[2m23.45.56[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/admin/dashboard.blade.php[22m
+[2m23.46.32[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\admin\dashboard.blade.php[22m
+[2m23.46.32[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/admin/dashboard.blade.php[22m
+[2m23.46.34[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/resources/css/app.css?direct, /resources/css/app.css[22m
+[2m23.47.47[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mstorage/framework/views/97c6335b1864944d5a23cbf624869f4b.php[22m
+[2m23.47.48[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mstorage/framework/views/dda81bd6c4f1803d36dde95a0aa86ff3.php[22m
+[2m00.19.16[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\pages\kontak.blade.php[22m
+[2m00.19.16[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/pages/kontak.blade.php[22m
+[2m00.19.40[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\pages\kontak.blade.php[22m
+[2m00.19.40[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/pages/kontak.blade.php[22m
+[2m00.19.41[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\pages\kontak.blade.php[22m
+[2m00.19.41[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/pages/kontak.blade.php[22m
+[2m00.20.10[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\pages\kontak.blade.php[22m
+[2m00.20.10[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/pages/kontak.blade.php[22m
+[2m00.20.11[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\pages\kontak.blade.php[22m
+[2m00.20.11[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/pages/kontak.blade.php[22m
+[2m00.20.23[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\pages\kontak.blade.php[22m
+[2m00.20.23[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/pages/kontak.blade.php[22m
+[2m00.20.24[22m [36m[1m[vite][22m[39m [32mfull reload[39m [2mresources\views\pages\kontak.blade.php[22m
+[2m00.20.24[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mresources/views/pages/kontak.blade.php[22m
+[2m00.20.48[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mstorage/framework/views/18c694a3a81550b54f507bc1e19aa520.php[22m

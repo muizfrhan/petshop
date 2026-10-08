@@ -1,0 +1,589 @@
+@import 'tailwindcss';
+@import './fonts.css';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/*
+ |---------------------------------------------------------------------------
+ | PETCARE HOUSE Design System
+ |---------------------------------------------------------------------------
+ | Token ini di-port 1:1 dari file code.html (tailwind.config) dan DESIGN.md
+ | supaya tampilan Blade identik dengan template asli. Jangan diubah ringan.
+ */
+
+/*
+ | `@theme static` (bukan `@theme`) dipilih karena token didesain sebagai satu
+ | design system utuh: seluruh variabel warna/ketikabit 반드시 tersedia di CSS
+ | meski utility-nya belum terpakai. Ini penting karena beberapa kelas dibangun
+ | dinamis di Blade (mis. bg-{{ $warna }}, text-{{ $status }}) sehingga hasil
+ | scan Tailwind tidak bisa melihat nama kelasnya secara statis.
+ */
+@theme static {
+    /* ---- Material 3 Color Roles ---- */
+    --color-surface-tint: #2d6a48;
+    --color-on-error: #ffffff;
+    --color-on-secondary: #ffffff;
+    --color-on-primary-container: #84c39b;
+    --color-primary-fixed-dim: #95d4ac;
+    --color-surface-container: #eaedff;
+    --color-secondary-fixed-dim: #ffb4a3;
+    --color-on-tertiary: #ffffff;
+    --color-on-surface: #131b2e;
+    --color-secondary-container: #fd6a49;
+    --color-on-primary-fixed-variant: #0f5132;
+    --color-tertiary: #003825;
+    --color-inverse-primary: #95d4ac;
+    --color-surface-variant: #dae2fd;
+    --color-background: #faf8ff;
+    --color-on-primary: #ffffff;
+    --color-surface-bright: #faf8ff;
+    --color-surface-dim: #d2d9f4;
+    --color-on-primary-fixed: #002111;
+    --color-error: #ba1a1a;
+    --color-tertiary-fixed-dim: #68dba9;
+    --color-outline-variant: #c0c9c0;
+    --color-tertiary-container: #005137;
+    --color-surface-container-lowest: #ffffff;
+    --color-surface: #faf8ff;
+    --color-inverse-surface: #283044;
+    --color-secondary-fixed: #ffdad2;
+    --color-on-secondary-fixed: #3d0600;
+    --color-on-tertiary-fixed: #002114;
+    --color-on-tertiary-fixed-variant: #005137;
+    --color-outline: #616963;
+    --color-primary-fixed: #b0f1c7;
+    --color-primary: #003820;
+    --color-inverse-on-surface: #eef0ff;
+    --color-surface-container-high: #e2e7ff;
+    --color-on-surface-variant: #404942;
+    --color-surface-container-highest: #dae2fd;
+    --color-on-background: #131b2e;
+    --color-surface-container-low: #f2f3ff;
+    --color-error-container: #ffdad6;
+    --color-on-error-container: #93000a;
+    --color-primary-container: #0f5132;
+    --color-tertiary-fixed: #85f8c4;
+    --color-on-tertiary-container: #54c998;
+    --color-on-secondary-container: #640f00;
+    --color-on-secondary-fixed-variant: #8c1900;
+    --color-secondary: #ae3115;
+
+    /* ---- Semantic / brand aliases (dipakai layer aplikasi) ---- */
+    --color-brand: #0f5132;
+    --color-brand-hover: #0b3d26;
+    --color-accent: #ff6b4a;
+    --color-accent-hover: #e55636;
+    --color-success: #059669;
+    --color-surface-ground: #f8fafc;
+    --color-surface-outline-app: #e2e8f0;
+    --color-text-strong: #0f172a;
+    --color-text-muted: #5b6878;
+
+    /* ---- Typography: Plus Jakarta Sans ---- */
+    --font-sans: 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+        'Segoe UI Emoji';
+    --font-display-lg: 'Plus Jakarta Sans', sans-serif;
+    --font-display-lg-mobile: 'Plus Jakarta Sans', sans-serif;
+    --font-headline-xl: 'Plus Jakarta Sans', sans-serif;
+    --font-headline-xl-mobile: 'Plus Jakarta Sans', sans-serif;
+    --font-headline-lg: 'Plus Jakarta Sans', sans-serif;
+    --font-headline-md: 'Plus Jakarta Sans', sans-serif;
+    --font-headline-sm: 'Plus Jakarta Sans', sans-serif;
+    --font-title-md: 'Plus Jakarta Sans', sans-serif;
+    --font-body-lg: 'Plus Jakarta Sans', sans-serif;
+    --font-body-md: 'Plus Jakarta Sans', sans-serif;
+    --font-body-sm: 'Plus Jakarta Sans', sans-serif;
+    --font-label-lg: 'Plus Jakarta Sans', sans-serif;
+    --font-label-md: 'Plus Jakarta Sans', sans-serif;
+    --font-label-caps: 'Plus Jakarta Sans', sans-serif;
+
+    /* ---- Type scale (size / line-height / letter-spacing / weight) ---- */
+    --text-display-lg: 56px;
+    --text-display-lg--line-height: 64px;
+    --text-display-lg--letter-spacing: -0.03em;
+    --text-display-lg--font-weight: 800;
+
+    --text-display-lg-mobile: 36px;
+    --text-display-lg-mobile--line-height: 44px;
+    --text-display-lg-mobile--letter-spacing: -0.02em;
+    --text-display-lg-mobile--font-weight: 800;
+
+    --text-headline-xl: 40px;
+    --text-headline-xl--line-height: 48px;
+    --text-headline-xl--letter-spacing: -0.02em;
+    --text-headline-xl--font-weight: 700;
+
+    --text-headline-xl-mobile: 28px;
+    --text-headline-xl-mobile--line-height: 36px;
+    --text-headline-xl-mobile--letter-spacing: -0.015em;
+    --text-headline-xl-mobile--font-weight: 700;
+
+    --text-headline-lg: 32px;
+    --text-headline-lg--line-height: 40px;
+    --text-headline-lg--letter-spacing: -0.015em;
+    --text-headline-lg--font-weight: 700;
+
+    --text-headline-md: 24px;
+    --text-headline-md--line-height: 32px;
+    --text-headline-md--letter-spacing: -0.01em;
+    --text-headline-md--font-weight: 600;
+
+    --text-headline-sm: 20px;
+    --text-headline-sm--line-height: 28px;
+    --text-headline-sm--letter-spacing: -0.005em;
+    --text-headline-sm--font-weight: 600;
+
+    --text-title-md: 18px;
+    --text-title-md--line-height: 24px;
+    --text-title-md--letter-spacing: 0em;
+    --text-title-md--font-weight: 600;
+
+    --text-body-lg: 18px;
+    --text-body-lg--line-height: 28px;
+    --text-body-lg--letter-spacing: 0em;
+    --text-body-lg--font-weight: 400;
+
+    --text-body-md: 16px;
+    --text-body-md--line-height: 24px;
+    --text-body-md--letter-spacing: 0em;
+    --text-body-md--font-weight: 400;
+
+    --text-body-sm: 14px;
+    --text-body-sm--line-height: 20px;
+    --text-body-sm--letter-spacing: 0.005em;
+    --text-body-sm--font-weight: 400;
+
+    --text-label-lg: 14px;
+    --text-label-lg--line-height: 20px;
+    --text-label-lg--letter-spacing: 0.01em;
+    --text-label-lg--font-weight: 600;
+
+    --text-label-md: 12px;
+    --text-label-md--line-height: 16px;
+    --text-label-md--letter-spacing: 0.02em;
+    --text-label-md--font-weight: 600;
+
+    --text-label-caps: 11px;
+    --text-label-caps--line-height: 14px;
+    --text-label-caps--letter-spacing: 0.06em;
+    --text-label-caps--font-weight: 700;
+
+    /* ---- Spacing (8pt system) ---- */
+    --spacing-gutter: 1.5rem;
+    --spacing-gutter-mobile: 1rem;
+    --spacing-margin: 3rem;
+    --spacing-margin-tablet: 2rem;
+    --spacing-margin-mobile: 1.25rem;
+    --spacing-space-3xs: 0.125rem;
+    --spacing-space-2xs: 0.25rem;
+    --spacing-space-xs: 0.5rem;
+    --spacing-space-sm: 0.75rem;
+    --spacing-space-md: 1rem;
+    --spacing-space-lg: 1.5rem;
+    --spacing-space-xl: 2rem;
+    --spacing-space-2xl: 3rem;
+    --spacing-space-3xl: 4.5rem;
+
+    /* ---- Radius ---- */
+    --radius-DEFAULT: 0.5rem;
+    --radius-lg: 0.75rem;
+    --radius-xl: 1rem;
+
+    /* ---- Emerald tinted elevation (DESIGN.md) ---- */
+    --shadow-card: 0 2px 4px -1px rgba(15, 23, 42, 0.04), 0 4px 12px -2px rgba(15, 81, 50, 0.05);
+    --shadow-card-hover: 0 8px 24px -4px rgba(15, 23, 42, 0.08), 0 4px 10px -2px rgba(15, 81, 50, 0.06);
+    --shadow-elevated: 0 20px 32px -6px rgba(15, 23, 42, 0.12), 0 8px 16px -4px rgba(15, 81, 50, 0.08);
+}
+
+@layer base {
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        overscroll-behavior: none;
+    }
+
+    main > :first-child {
+        margin-top: 0 !important;
+    }
+
+    main > :last-child {
+        margin-bottom: 0 !important;
+    }
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
+    [x-cloak] {
+        display: none !important;
+    }
+
+    /* Sembunyikan tombol clear bawaan <input type="search"> (Chrome/Safari)
+       supaya tidak bertumpuk dengan tombol clear milik aplikasi. */
+    input[type='search']::-webkit-search-cancel-button,
+    input[type='search']::-webkit-search-decoration {
+        -webkit-appearance: none;
+        appearance: none;
+    }
+}
+
+@layer components {
+    /* Panel / surface reusable untuk halaman baru (produk, admin, dsb) */
+    .surface-card {
+        background-color: var(--color-surface-container-lowest);
+        border: 1px solid rgba(226, 232, 240, 0.8);
+        border-radius: 1rem;
+        box-shadow: var(--shadow-card);
+    }
+
+    .surface-card-hover {
+        transition: all 0.3s ease;
+    }
+
+    .surface-card-hover:hover {
+        transform: translateY(-4px);
+        box-shadow: var(--shadow-card-hover);
+    }
+
+    .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        border-radius: 0.875rem;
+        font-weight: 600;
+        transition: all 0.2s ease;
+        cursor: pointer;
+    }
+
+    .btn:disabled {
+        opacity: 0.55;
+        cursor: not-allowed;
+    }
+
+    .btn-primary {
+        background-color: var(--color-primary);
+        color: var(--color-on-primary);
+    }
+
+    .btn-primary:hover:not(:disabled) {
+        background-color: var(--color-primary-container);
+        box-shadow: var(--shadow-card-hover);
+    }
+
+    .btn-accent {
+        background-color: var(--color-secondary);
+        color: var(--color-on-secondary);
+        box-shadow: var(--shadow-card);
+    }
+
+    .btn-accent:hover:not(:disabled) {
+        background-color: #a53416;
+        transform: scale(1.02);
+    }
+
+    .btn-ghost {
+        background-color: #f1f5f9;
+        color: var(--color-text-strong);
+    }
+
+    .btn-ghost:hover:not(:disabled) {
+        background-color: #e2e8f0;
+    }
+
+    .form-input {
+        width: 100%;
+        height: 48px;
+        border-radius: 0.875rem;
+        background-color: #ffffff;
+        border: 1.5px solid var(--color-surface-outline-app);
+        padding: 0 0.875rem;
+        font-size: var(--text-body-sm);
+        color: var(--color-text-strong);
+        outline: none;
+        transition: all 0.2s ease;
+    }
+
+    .form-input:focus {
+        border-color: var(--color-primary);
+        box-shadow: 0 0 0 4px rgba(5, 150, 105, 0.15);
+    }
+
+    .form-input.is-invalid {
+        border-color: var(--color-error);
+        background-color: #fff5f5;
+    }
+
+    .form-label {
+        display: block;
+        font-size: var(--text-label-lg);
+        font-weight: 600;
+        color: var(--color-text-strong);
+        margin-bottom: 0.375rem;
+    }
+
+    .badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.25rem;
+        padding: 0.25rem 0.625rem;
+        border-radius: 9999px;
+        font-size: var(--text-label-caps);
+        font-weight: 700;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+    }
+
+    .table-shell {
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    .table-shell table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: var(--text-body-sm);
+    }
+
+    .table-shell th {
+        text-align: left;
+        padding: 0.75rem 1rem;
+        background-color: var(--color-surface-container-low);
+        font-size: var(--text-label-caps);
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        color: var(--color-text-muted);
+        white-space: nowrap;
+    }
+
+    .table-shell td {
+        padding: 0.875rem 1rem;
+        border-top: 1px solid var(--color-surface-outline-app);
+        vertical-align: middle;
+    }
+
+    /*
+     | Hook + gaya yang dipakai JS vanilla pada template asli.
+     | Dippertahankan agar script yang sudah ada tetap bekerja.
+     */
+    .product-card {
+        position: relative;
+    }
+
+    .tab-btn {
+        cursor: pointer;
+    }
+
+    .wishlist-btn {
+        cursor: pointer;
+    }
+
+    /* Equivalent dari utilitas `tailwindcss-animate` (animate-in/fade-in/zoom-in-95)
+       yang dipakai template asli pada panel booking modal. */
+    .animate-in {
+        animation-duration: 200ms;
+        animation-fill-mode: both;
+    }
+
+    .fade-in {
+        animation-name: pch-fade-in;
+    }
+
+    .zoom-in-95 {
+        animation-name: pch-zoom-in-95;
+    }
+}
+
+@keyframes pch-fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes pch-zoom-in-95 {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Material Symbols: ikon tidak boleh di-italic oleh font-style.
+   Wajib di layer components supaya utilitas Tailwind (text-[..px], hidden,
+   sm:hidden) tetap menimpa rule ini. */
+@layer components {
+    .material-symbols-outlined {
+        font-style: normal;
+        font-weight: normal;
+        font-family: 'Material Symbols Outlined';
+        font-size: 24px;
+        font-feature-settings: 'liga';
+        line-height: 1;
+        letter-spacing: normal;
+        text-transform: none;
+        display: inline-block;
+        white-space: nowrap;
+        direction: ltr;
+        -webkit-font-feature-settings: 'liga';
+        -webkit-font-smoothing: antialiased;
+        user-select: none;
+    }
+}
+
+/*
+ | Dark mode: seluruh token permukaan & teks dibalik mengikuti Material 3 dark
+ | scheme. Utilitas Tailwind merujuk var(--color-*), sehingga cukup override di
+ | sini — tidak perlu mengubah class Blade satu per satu.
+ | Token "brand" (primary/secondary/error + on-nya) sengaja TIDAK dibalik agar
+ | tombol, banner gradien, dan badge yang memakai latar gelap tetap konsisten.
+ */
+html.dark {
+    color-scheme: dark;
+
+    /* ---- Surfaces ---- */
+    --color-background: #0e1219;
+    --color-surface: #12161f;
+    --color-surface-dim: #0d1017;
+    --color-surface-bright: #1a1f2b;
+    --color-surface-variant: #262d3d;
+    --color-surface-container-lowest: #1b202b;
+    --color-surface-container-low: #212735;
+    --color-surface-container: #262d3d;
+    --color-surface-container-high: #2c3446;
+    --color-surface-container-highest: #333b50;
+    --color-surface-ground: #12161f;
+    --color-surface-outline-app: #333c50;
+
+    /* ---- Foregrounds ---- */
+    --color-on-background: #e7e9f0;
+    --color-on-surface: #e7e9f0;
+    --color-on-surface-variant: #c3cad9;
+    --color-outline: #99a2b5;
+    --color-outline-variant: #3d4557;
+    --color-inverse-surface: #e2e5ee;
+    --color-inverse-on-surface: #1b202b;
+    --color-text-strong: #eef1f7;
+    --color-text-muted: #9aa4b8;
+
+    /* ---- Chip/latar primary-fixed: harus gelap agar teks terang tetap kontras
+           (pola "bg-primary-fixed text-primary" dipakai di banyak halaman) ---- */
+    --color-primary-fixed: #14532d;
+    --color-primary-fixed-dim: #0f4527;
+    --color-on-primary-fixed: #d1fae5;
+    --color-on-primary-fixed-variant: #a9eecb;
+
+    /* ---- Chip secondary (pola "bg-secondary-fixed text-secondary") ---- */
+    --color-secondary-fixed: #5c2113;
+    --color-secondary-fixed-dim: #4a1a10;
+    --color-on-secondary-fixed: #ffd9ce;
+    --color-on-secondary-fixed-variant: #ffb9a8;
+}
+
+/* `text-primary` adalah teks di atas permukaan gelap, sedangkan `bg-primary`
+   (tombol/banner) tetap hijau tua — keduanya dibedakan di sini. */
+html.dark .surface-card {
+    border-color: rgba(51, 65, 85, 0.7);
+}
+
+html.dark .text-primary {
+    color: #6ee0ab;
+}
+
+html.dark .border-primary {
+    border-color: #37a56f;
+}
+
+html.dark .text-error {
+    color: #ff9d94;
+}
+
+/* Warna aksen yang memang dipakai sebagai teks di atas permukaan gelap. */
+html.dark .text-secondary {
+    color: #ff9d84;
+}
+
+html.dark .text-surface-tint {
+    color: #7fd0a6;
+}
+
+html.dark .form-input {
+    background-color: #151a23;
+    border-color: var(--color-surface-outline-app);
+    color: var(--color-on-surface);
+}
+
+html.dark .form-input::placeholder {
+    color: #8f97a9;
+}
+
+html.dark .form-input.is-invalid {
+    background-color: #2b1a1c;
+    border-color: var(--color-error);
+}
+
+html.dark .btn-ghost {
+    background-color: #242b3a;
+    color: var(--color-on-surface);
+}
+
+html.dark .btn-ghost:hover:not(:disabled) {
+    background-color: #2c3446;
+}
+
+/* Grafik dashboard: bar pendapatan perlu warna lebih terang di mode gelap */
+html.dark [data-chart-bar] {
+    background-color: #2f9e63;
+}
+
+html.dark [data-chart-col]:hover [data-chart-bar] {
+    background-color: #6ee0ab;
+}
+
+/* Elevation helper (DESIGN.md: Level 2 & Level 3) */
+.elev-2 {
+    box-shadow: var(--shadow-card-hover);
+}
+
+.elev-3 {
+    box-shadow: var(--shadow-elevated);
+}
+
+/* Animasi masuk halaman auth */
+@keyframes pch-fade-up {
+    from {
+        opacity: 0;
+        transform: translateY(16px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.auth-enter {
+    animation: pch-fade-up 0.6s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .auth-enter {
+        animation: none;
+    }
+}

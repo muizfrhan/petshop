@@ -1,0 +1,29 @@
+<?php
+
+namespace Database\Factories;
+
+use App\Models\Brand;
+use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Support\Str;
+
+class BrandFactory extends Factory
+{
+    protected $model = Brand::class;
+
+    public function definition(): array
+    {
+        $name = fake()->unique()->company();
+
+        return [
+            'name' => $name,
+            'slug' => Str::slug($name).'-'.Str::lower(Str::random(4)),
+            'description' => fake()->sentence(12),
+            'status' => 'active',
+        ];
+    }
+
+    public function inactive(): static
+    {
+        return $this->state(fn () => ['status' => 'inactive']);
+    }
+}
